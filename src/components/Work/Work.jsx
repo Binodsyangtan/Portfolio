@@ -33,7 +33,7 @@ const Work = () => {
           <div
             key={project.id}
             onClick={() => handleOpenModal(project)}
-            className="border border-white bg-gray-900 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden cursor-pointer hover:shadow-[#00FFFF] hover:-translate-y-2 transition-transform duration-300"
+            className="border border-[#00BFFF] bg-gray-900 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden cursor-pointer hover:shadow-[#00FFFF] hover:-translate-y-2 transition-transform duration-300"
           >
             <div className="p-4">
               <img
