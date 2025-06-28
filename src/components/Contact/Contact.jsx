@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const Contact = () => {
+const Contactus = () => {
   const form = useRef();
   const [isSent, setIsSent] = useState(false);
 
@@ -116,4 +116,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contactus;

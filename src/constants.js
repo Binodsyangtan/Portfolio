@@ -36,8 +36,9 @@ import vsniketan from './assets/education_logo/vsniketan.png';
 import geetaLogo from './assets/education_logo/geetalogo.png';
 
 // Project Section Logo's
-import sampannaHomes from './assets/work_logo/sampanna-homes.png'
+import sampannaHomes from './assets/work_logo/sampanna.png'
 import portfolio from './assets/work_logo/portfolio.png'
+import yumyatra from'./assets/work_logo/yum-yatra.png'
 
 
 export const SkillsInfo = [
@@ -89,61 +90,7 @@ export const SkillsInfo = [
   },
 ];
 
-  // export const experiences = [
-  //   {
-  //     id: 0,
-  //     img: webverseLogo,
-  //     role: "Fullstack Developer",
-  //     company: "Webverse Digital",
-  //     date: "April 2024 - Present",
-  //     desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-  //     skills: [
-  //       "HTML",
-  //       "CSS",
-  //       "JavaScript",
-  //       "React JS",
-  //       "TypeScript",
-  //       "Node JS",
-  //       "Tailwind CSS",
-  //       "MongoDb",
-  //       "Redux",
-  //       " Next Js",
-  //     ],
-  //   },
-  //   {
-  //     id: 1,
-  //     img: agcLogo,
-  //     role: "Fullstack Engineer",
-  //     company: "Agumentik Group of Companies",
-  //     date: "July 2023 - March 2024",
-  //     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-  //     skills: [
-  //       "ReactJS",
-  //       "Redux",
-  //       "JavaScript",
-  //       "Tailwind CSS",
-  //       "HTML",
-  //       "CSS",
-  //       "SQL",
-  //     ],
-  //   },
-  //   {
-  //     id: 2,
-  //     img: newtonschoolLogo,
-  //     role: "Frontend Intern",
-  //     company: "Newton School",
-  //     date: "September 2021 - August 2022",
-  //     desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-  //     skills: [
-  //       "HTML",
-  //       "CSS",
-  //       "Javascript",
-  //       "Bootstrap",
-  //       "Figma",
-  //       "Material UI",
-  //     ],
-  //   },
-  // ];
+
   
   export const education = [
     {
@@ -188,13 +135,23 @@ export const SkillsInfo = [
     },
     {
       id: 1,
+      title: "Yum Yatra – Food Delivery App (Frontend)",
+      description:
+        "A responsive food delivery frontend built with React and Tailwind CSS. Users can browse restaurants, view menus, and place orders with a smooth and intuitive UI.",
+      image: yumyatra,
+      tags: [ "React JS", "Tailwind CSS",],
+      // github: "",
+      webapp: "https://yum-yatra.netlify.app/",
+    },
+    {
+      id: 2,
       title: "Portfolio project",
       description:
         "My Portfolio Website is a personal web application built using React.js for a dynamic and component-based UI. It is styled with Tailwind CSS and HTML, ensuring a clean, responsive, and mobile-friendly design. The site showcases personal information, projects, skills, and contact details in an interactive format. Various npm packages are integrated to enhance functionality and animations, such as smooth scrolling, form handling, and icon libraries. The portfolio is optimized for performance and user experience, reflecting modern web development best practices.",
       image: portfolio,
       tags: ["HTML", "Tailwind CSS", "React JS", "Npm-packages"],
-      github: "https://github.com/Binodsyangtan/Sampanna-Homes",
-      webapp: "https://sampanna-homes.netlify.app",
+      github: "https://github.com/Binodsyangtan/Portfolio",
+      webapp: "https://binod-syangtan.netlify.app/",
     },
     
 
