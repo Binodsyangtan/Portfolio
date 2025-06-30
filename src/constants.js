@@ -236,7 +236,7 @@ export const SkillsInfo = [
     image: crlogo,
     title: "College Representative (CR)",
     organization: "CodeForChange",
-    date: "June 2023 – 2024 DEc",
+    date: "June 2023 – 2024 Dec",
     role: "Student liaison and event coordination",
     description:
       "Led student outreach, promoted workshops and bootcamps, coordinated with other CRs.",
