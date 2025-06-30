@@ -40,6 +40,18 @@ import sampannaHomes from './assets/work_logo/sampanna.png'
 import portfolio from './assets/work_logo/portfolio.png'
 import yumyatra from'./assets/work_logo/yum-yatra.png'
 
+//certificate section logos
+import Merncerti from './assets/certificate/mern.png'
+import jscerti from './assets/certificate/js.png'
+import nextjs from './assets/certificate/nextjs.png'
+
+//leadership
+import vice from "./assets/leadership/vice.png"
+import ideathonLogo from "./assets/leadership/ideathon.png"
+import crlogo from "./assets/leadership/cr.jpg"
+
+
+
 
 export const SkillsInfo = [
   {
@@ -89,6 +101,7 @@ export const SkillsInfo = [
     ],
   },
 ];
+
 
 
   
@@ -143,6 +156,7 @@ export const SkillsInfo = [
       // github: "",
       webapp: "https://yum-yatra.netlify.app/",
     },
+    
     {
       id: 2,
       title: "Portfolio project",
@@ -153,6 +167,80 @@ export const SkillsInfo = [
       github: "https://github.com/Binodsyangtan/Portfolio",
       webapp: "https://binod-syangtan.netlify.app/",
     },
-    
+    {
+      id: 3,
+      title: "AgroKonnect(building)",
+      description:
+        "AgroConnect is a digital platform that connects farmers, suppliers, and buyers to streamline communication, improve access to resources, and expand market opportunities—promoting sustainable and efficient agriculture through technology.",
+      // image: ,
+      tags: ["React JS", "GO", "NODEJS ", "expressjs","POSTGRESQL"],
+      // github: "https://github.com/Binodsyangtan/Portfolio",
+      // webapp: "https://binod-syangtan.netlify.app/",
+      content:"working on (Group project) "
+    },
 
   ];  
+
+
+  export const certificate = [
+    {
+      id:0,
+      title:"MERN Stack Training",
+      institution:"Mindrisers Institute of Technology - Kumari Galli 2, Kathmandu 44600",
+      image:Merncerti,
+      description:"Completed a comprehensive MERN stack training covering React, Node.js, Express, and MongoDB. Gained hands-on experience building full-stack applications and deploying them. Developed strong practical skills in JavaScript, API design, and modern web development workflows."
+    },
+    {
+      id:1,
+      title:"JavaScript",
+      institution:"Online SSCALER Topics",
+      image:jscerti,
+      description:"Completed a comprehensive JavaScript certification covering fundamentals, advanced concepts, and practical problem-solving. Gained strong skills in ES6+, asynchronous programming, DOM manipulation, and algorithmic thinking."
+    },
+    {
+      id:2,
+      title:"7-day NextJs Workshop",
+      institution:"PNC BCA Association",
+      image:nextjs,
+      description:"Participated in an intensive 7-day workshop on Next.js covering server-side rendering, routing, API routes, and backend integration. Built practical projects to strengthen skills in modern React framework development.",
+    },
+  ]
+
+  export const leadershipActivities = [
+  {
+    id: 1,
+    image: vice,
+    title: "Vice Treasurer",
+    organization: "CodeForChange",
+    date: "Jan 2024 – Present",
+    role: "Financial management and event planning",
+    description:
+      "Managed community funds, organized tech events like CodeFest and ITMela, collaborated with sponsors.",
+    skills: "Leadership, Budgeting, Event Management",
+    tags: ["Leadership", "Finance", "Event Planning","Collaboration","Responsibility","Event Coordination"],
+  },
+  {
+    id: 2,
+    image: ideathonLogo,
+    title: "Event Host & Organizer",
+    organization: "ITMela,Ideathon & CodeFest",
+    date: "2024",
+    role: "Hosting and organizing tech festivals and ideathons",
+    description:
+      "Hosted ideathons and coding competitions engaging 100+ participants, worked with sponsors and volunteers.",
+    skills: "Public Speaking, Event Hosting, Teamwork",
+    tags: ["Hosting","Audience Engagement","Event Management", "Public Speaking", "Teamwork","Planning & Execution","Coordination"],
+  },
+  {
+    id: 3,
+    image: crlogo,
+    title: "College Representative (CR)",
+    organization: "CodeForChange",
+    date: "June 2023 – 2024 DEc",
+    role: "Student liaison and event coordination",
+    description:
+      "Led student outreach, promoted workshops and bootcamps, coordinated with other CRs.",
+    skills: "Communication, Coordination, Community Building",
+    tags: ["Leadership", "Communication", "Community"],
+  },
+];

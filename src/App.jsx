@@ -8,6 +8,8 @@ import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from './components/BlurBlob';
+import Certificates from "./components/Certificate/Certificates";
+import LeadershipAndActivities from "./components/LeadershipAndActivities/LeadershipAndActivities";
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
         {/* <Experience /> */}
         <Work />
         <Education />
+        <Certificates/>
+        <LeadershipAndActivities/>
         <Contact />
         <Footer />
       </div>
