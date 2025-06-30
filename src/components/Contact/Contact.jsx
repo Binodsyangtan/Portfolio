@@ -108,7 +108,7 @@ const Contactus = () => {
             type="submit"
             className="w-full bg-gradient-to-r from-blue-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
           >
-            Send
+            Get in touch
           </button>
         </form>
       </div>
