@@ -39,6 +39,7 @@ import geetaLogo from './assets/education_logo/geetalogo.png';
 import sampannaHomes from './assets/work_logo/sampanna.png'
 import portfolio from './assets/work_logo/portfolio.png'
 import yumyatra from'./assets/work_logo/yum-yatra.png'
+import agroConnect from './assets/work_logo/agro.png'
 
 //certificate section logos
 import Merncerti from './assets/certificate/mern.png'
@@ -169,10 +170,10 @@ export const SkillsInfo = [
     },
     {
       id: 3,
-      title: "AgroKonnect(building)",
+      title: "AgroConnect(Working)",
       description:
         "AgroConnect is a digital platform that connects farmers, suppliers, and buyers to streamline communication, improve access to resources, and expand market opportunities—promoting sustainable and efficient agriculture through technology.",
-      // image: ,
+      image: agroConnect,
       tags: ["React JS", "GO", "NODEJS ", "expressjs","POSTGRESQL"],
       // github: "https://github.com/Binodsyangtan/Portfolio",
       // webapp: "https://binod-syangtan.netlify.app/",
