@@ -72,9 +72,9 @@ export const SkillsInfo = [
     skills: [
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
+      // { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
+      // { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
@@ -84,7 +84,7 @@ export const SkillsInfo = [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
+      // { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
     ],
   },
@@ -92,7 +92,7 @@ export const SkillsInfo = [
     title: 'Tools',
     skills: [
       { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
+      // { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
@@ -157,9 +157,19 @@ export const SkillsInfo = [
       // github: "",
       webapp: "https://yum-yatra.netlify.app/",
     },
-    
     {
       id: 2,
+      title: "WebSathi PVt. Ltd ",
+      description:
+        "A responsive Company Landing page  frontend built with Ts,nextjs and Tailwind CSS.",
+      image: yumyatra,
+      tags: [ "Nextjs","TS", "Tailwind CSS",],
+      // github: "",
+      webapp: "https://websathi.net/",
+    },
+    
+    {
+      id: 3,
       title: "Portfolio project",
       description:
         "My Portfolio Website is a personal web application built using React.js for a dynamic and component-based UI. It is styled with Tailwind CSS and HTML, ensuring a clean, responsive, and mobile-friendly design. The site showcases personal information, projects, skills, and contact details in an interactive format. Various npm packages are integrated to enhance functionality and animations, such as smooth scrolling, form handling, and icon libraries. The portfolio is optimized for performance and user experience, reflecting modern web development best practices.",
@@ -169,7 +179,7 @@ export const SkillsInfo = [
       webapp: "https://binod-syangtan.netlify.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "AgroConnect(Working)",
       description:
         "AgroConnect is a digital platform that connects farmers, suppliers, and buyers to streamline communication, improve access to resources, and expand market opportunities—promoting sustainable and efficient agriculture through technology.",
