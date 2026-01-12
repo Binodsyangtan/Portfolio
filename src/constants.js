@@ -40,6 +40,7 @@ import sampannaHomes from './assets/work_logo/sampanna.png'
 import portfolio from './assets/work_logo/portfolio.png'
 import yumyatra from'./assets/work_logo/yum-yatra.png'
 import agroConnect from './assets/work_logo/agro.png'
+import websathi from './assets/work_logo/websathi.png'
 
 //certificate section logos
 import Merncerti from './assets/certificate/mern.png'
@@ -162,7 +163,7 @@ export const SkillsInfo = [
       title: "WebSathi PVt. Ltd ",
       description:
         "A responsive Company Landing page  frontend built with Ts,nextjs and Tailwind CSS.",
-      image: yumyatra,
+      image: websathi,
       tags: [ "Nextjs","TS", "Tailwind CSS",],
       // github: "",
       webapp: "https://websathi.net/",
